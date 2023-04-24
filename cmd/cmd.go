@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"github.com/phoebetronic/model/cmd/arb"
 	"github.com/phoebetronic/model/cmd/ver"
 	"github.com/spf13/cobra"
 	"github.com/xh3b4sd/tracer"
@@ -16,6 +17,16 @@ func New() (*cobra.Command, error) {
 	var err error
 
 	// --------------------------------------------------------------------- //
+
+	var cmdArb *cobra.Command
+	{
+		c := arb.Config{}
+
+		cmdArb, err = arb.New(c)
+		if err != nil {
+			return nil, tracer.Mask(err)
+		}
+	}
 
 	var cmdVer *cobra.Command
 	{
@@ -53,6 +64,7 @@ func New() (*cobra.Command, error) {
 	}
 
 	{
+		c.AddCommand(cmdArb)
 		c.AddCommand(cmdVer)
 	}
 
