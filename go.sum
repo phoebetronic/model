@@ -364,8 +364,8 @@ github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5/go.mod h1
 github.com/toqueteos/webbrowser v1.2.0/go.mod h1:XWoZq4cyp9WeUeak7w7LXRUQf1F1ATJMir8RTqb4ayM=
 github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c/go.mod h1:lB8K/P019DLNhemzwFU4jHLhdvlE6uDZjXFejJXr49I=
 github.com/xdg/stringprep v0.0.0-20180714160509-73f8eece6fdc/go.mod h1:Jhud4/sHMO4oL310DaZAKk9ZaJ08SJfe+sJh0HrGL1Y=
-github.com/xh3b4sd/tracer v0.6.0 h1:WMrNsHcWUaCAqMWXogD7IRKC8F6A9Ar4pDF9WcdZsX0=
-github.com/xh3b4sd/tracer v0.6.0/go.mod h1:U5gTjJXdszOlcBmr94v6zDrV8sY6d53thFUkPNZQ4Xk=
+github.com/xh3b4sd/tracer v0.9.0 h1:R3f1b7YilhX6HCuSZJkoNPTpsreNb1SVNYOwAy+476U=
+github.com/xh3b4sd/tracer v0.9.0/go.mod h1:8nRbNXXhSSDmPfyoRRYgwQt/RpzAUH+zNsagP9InH8M=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
